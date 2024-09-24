@@ -6,5 +6,5 @@ const nextConfig = {
     telemetry: false, // Menonaktifkan telemetry
   };
   
-  module.exports = nextConfig;
+  export default nextConfig;
   
