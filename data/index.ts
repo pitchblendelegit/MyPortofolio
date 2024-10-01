@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Check Out my Resume!",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Backend Developer Project",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Backend Developer (Final Project) - Telkom University",
+      desc: "Assisted in the development of a web-based platform using Node.js, Database management using Microsoft Azure Database Server: Created and managed the database using Azure Server Database and managed it in MySQL Workbench.",
       className: "md:col-span-2",
       thumbnail: "./exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Data Analyst - BRIN",
+      desc: "Conducted research on diarrhea diseases in West Java: Analyzed various factors causing high rates of diarrhea in West Java, comparing Indramayu and Bandung.",
+      className: "md:col-span-2",
       thumbnail: "./exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Laboratory Assistant - Everything Connected Lab",
+      desc: "Assistant for Computer Networks and Cloud Computing Practicum: Assisted in guiding practicum sessions for two semesters, teaching modules according to practicum requirements.",
+      className: "md:col-span-2",
       thumbnail: "./exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Staff of Kesejahteraan Mahasiswa Department - HMTK Telkom University",
+      desc: "Secretary of the Student Welfare Department: Prepared proposals, invitation letters, and meeting minutes for each event.",
       className: "md:col-span-2",
       thumbnail: "./exp4.svg",
     },
@@ -205,13 +205,11 @@ export const navItems = [
     {
       id: 1,
       img: "./git.svg",
+      link : "https://github.com/pitchblendelegit"
     },
     {
       id: 2,
-      img: "./twit.svg",
-    },
-    {
-      id: 3,
       img: "./link.svg",
+      link: "https://www.linkedin.com/in/hafizh-alfian-syakur-43709b1bb/"
     },
   ];
