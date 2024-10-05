@@ -11,45 +11,53 @@ const Approach = () => {
             My <span className="text-purple">Approach</span>
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-        <Card title="Sheetal is Nisha" icon={<AceternityIcon order="Phase 1" />}
-        description = "hohoho"
-        >
-          <CanvasRevealEffect
-            animationSpeed={5.1}
-            containerClassName="bg-emerald-900"
-          />
-        </Card>
-        <Card title="Planning & Ducth" icon={<AceternityIcon order="Phase 2" />}
-        description = "hohoho"
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-black"
-            colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-            ]}
-            dotSize={2}
-          />
-        </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon order="Phase 3" />}
-        description = "hohoho"
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600"
-            colors={[[125, 211, 252]]}
-          />
-        </Card>
-        <Card title="Time is Money" icon={<AceternityIcon order="Phase 4" />}
-        description = "hohoho"
-        >
-          <CanvasRevealEffect
-            animationSpeed={3}
-            containerClassName="bg-sky-600"
-            colors={[[125, 211, 252]]}
-          />
-        </Card>
+        <div className="text-center">
+          <Card title="Server Optimization" icon={<AceternityIcon order="Phase 1"/>}
+          description = "Building and optimizing MERN and MySQL-based scalable server-side applications."
+          >
+            <CanvasRevealEffect
+              animationSpeed={3}
+              containerClassName="bg-emerald-900"
+            />
+          </Card>
+        </div>
+        <div className="text-center">
+          <Card title="API Design" icon={<AceternityIcon order="Phase 2" />}
+          description = "Designing secure and efficient APIs to ensure smooth communication between front-end and back-end systems."
+          >
+            <CanvasRevealEffect
+              animationSpeed={3}
+              containerClassName="bg-black"
+              colors={[
+                [236, 72, 153],
+                [232, 121, 249],
+              ]}
+              dotSize={2}
+            />
+          </Card>
+        </div>
+        <div className="text-center">
+          <Card title="Database Expertise" icon={<AceternityIcon order="Phase 3" />}
+          description = "Expert in database management, particularly handling crucial data with complex structures using MySQL."
+          >
+            <CanvasRevealEffect
+              animationSpeed={3}
+              containerClassName="bg-sky-600"
+              colors={[[125, 211, 252]]}
+            />
+          </Card>
+        </div>
+        <div className="text-center">
+          <Card title="Problem Solving" icon={<AceternityIcon order="Phase 4" />}
+          description = "Quick problem-solving with a logical approach, ensuring optimal application performance."
+          >
+            <CanvasRevealEffect
+              animationSpeed={3}
+              containerClassName="bg-teal-500"
+              colors={[[125, 211, 252]]}
+            />
+          </Card>
+        </div>
       </div>
     </section>
   );
