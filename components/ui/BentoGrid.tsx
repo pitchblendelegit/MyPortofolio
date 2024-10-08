@@ -134,7 +134,7 @@ export const BentoGridItem = ({
           {id === 4 && (
             <div className="mt-5">
               <a
-                href="/resume.pdf"
+                href="/Hafizh-Alfian-Syakur_Resume.pdf"
                 download="Hafizh_Resume.pdf"
                 className="inline-block bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-800 transition-colors border border-white/[0.1] font-bold"
               >
