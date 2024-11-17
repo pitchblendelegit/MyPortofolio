@@ -74,8 +74,24 @@ export const navItems = [
       title: "Hyperial",
       des: "Materials management application designed to help Companies manage their material inventories efficiently.",
       img: "./hyperial_img.png",
-      iconLists: ["./re.svg", "./tail.svg", "./nodeJS.svg", "./expressJS.svg"],
+      iconLists: ["./logo-javascript.svg", "./re.svg", "./tail.svg", "./nodeJS.svg", "./expressJS.svg"],
       link: "https://github.com/pitchblendelegit",
+    },
+    {
+      id: 2,
+      title: "Exercise Tracker",
+      des: "FreeCodeCamp project to track your Exercise.",
+      img: "./FCC_Project1.png",
+      iconLists: ["./logo-javascript.svg", "./mongodb-svgrepo-com.svg", "./nodeJS.svg", "./expressJS.svg"],
+      link: "https://github.com/pitchblendelegit/FCC_BackendDevelopmentProject_Tracker",
+    },
+    {
+      id: 3,
+      title: "RPG Game: Dragon Repeller",
+      des: "FreeCodeCamp project of JavaScript Courses.",
+      img: "./rpg_img.png",
+      iconLists: ["./logo-javascript.svg", "./html-1.svg", "./css-3.svg"],
+      link: "https://github.com/pitchblendelegit/RPG_Game",
     },
   ];
   
@@ -185,6 +201,6 @@ export const navItems = [
     {
       id: 2,
       img: "./link.svg",
-      link: "https://www.linkedin.com/in/hafizh-alfian-syakur-43709b1bb/"
+      link: "https://www.linkedin.com/in/hafizh-alfian-syakur/"
     },
   ];
