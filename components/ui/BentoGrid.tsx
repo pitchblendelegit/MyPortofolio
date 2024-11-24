@@ -132,15 +132,16 @@ export const BentoGridItem = ({
           </div>
 
           {id === 4 && (
-            <div className="mt-5">
-              <a
-                href="/Resume_Hafizh_Alfian_Syakur.pdf"
-                download="Hafizh_Resume.pdf"
-                className="inline-block bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-800 transition-colors border border-white/[0.1] font-bold"
-              >
-                Download Here
-              </a>
-            </div>
+              <div className="mt-5">
+                <a
+                  href="https://drive.google.com/file/d/19Jq5dZ11ejSf14PdZYvzYYSsbEnPBAC1/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-800 transition-colors border border-white/[0.1] font-bold"
+                >
+                  Download Here
+                </a>
+              </div>
           )}
 
           {id === 2 && <GlobeDemo />}
