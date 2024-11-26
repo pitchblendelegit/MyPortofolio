@@ -7,7 +7,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Enthusiastic beginner in the world of software development",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -75,7 +75,7 @@ export const navItems = [
       des: "Materials management application designed to help Companies manage their material inventories efficiently.",
       img: "./hyperial_img.png",
       iconLists: ["./logo-javascript.svg", "./re.svg", "./tail.svg", "./nodeJS.svg", "./expressJS.svg"],
-      link: "https://github.com/pitchblendelegit",
+      link: "https://github.com/pitchblendelegit/Hyperial-Backend",
     },
     {
       id: 2,
@@ -88,14 +88,30 @@ export const navItems = [
     {
       id: 3,
       title: "RPG Game: Dragon Repeller",
-      des: "FreeCodeCamp project of JavaScript Courses.",
+      des: "FreeCodeCamp Project in JavaScript Courses.",
       img: "./rpg_img.png",
       iconLists: ["./logo-javascript.svg", "./html-1.svg", "./css-3.svg"],
-      link: "https://github.com/pitchblendelegit/RPG_Game",
+      link: "https://pitchblendelegit.github.io/RPG_Game/",
+    },
+    {
+      id: 4,
+      title: "Rock Scissor Paper Games",
+      des: "FreeCodeCamp Project in JavaScript Courses.",
+      img: "./rsp_game.png",
+      iconLists: ["./logo-javascript.svg", "./html-1.svg", "./css-3.svg"],
+      link: "https://pitchblendelegit.github.io/RockScissorPaper_Game/",
+    },
+    {
+      id: 5,
+      title: "To Do Applications",
+      des: "Django App to Manage Your Daily Activities.",
+      img: "./todoapp.png",
+      iconLists: ["./django-svgrepo-com.svg", "./python-svgrepo-com.svg", "./html-1.svg", "./css-3.svg"],
+      link: "https://github.com/pitchblendelegit/ToDoApp",
     },
   ];
   
-  export const testimonials = [
+  /*export const testimonials = [
     {
       quote:
         "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
@@ -126,7 +142,7 @@ export const navItems = [
       name: "Michael Johnson",
       title: "Director of AlphaStream Technologies",
     },
-  ];
+  ];*/
   
   export const companies = [
     {

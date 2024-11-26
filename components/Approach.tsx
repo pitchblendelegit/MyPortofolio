@@ -13,7 +13,7 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <div className="text-center">
           <Card title="Server Optimization" icon={<AceternityIcon order="Phase 1"/>}
-          description = "Building and optimizing MERN and MySQL-based scalable server-side applications."
+          description = "Building and optimizing Application and MySQL-based scalable server-side applications."
           >
             <CanvasRevealEffect
               animationSpeed={3}
@@ -37,8 +37,8 @@ const Approach = () => {
           </Card>
         </div>
         <div className="text-center">
-          <Card title="Database Expertise" icon={<AceternityIcon order="Phase 3" />}
-          description = "Expert in database management, particularly handling crucial data with complex structures using MySQL."
+          <Card title="Database Management" icon={<AceternityIcon order="Phase 3" />}
+          description = "Particularly handling crucial data with complex structures using MySQL."
           >
             <CanvasRevealEffect
               animationSpeed={3}
